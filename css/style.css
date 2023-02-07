@@ -42,6 +42,9 @@ h3{
 .container{
     width: 1920px;
 }
+.description{
+    text-align: center;
+}
 /*
             MENU
 */
@@ -198,8 +201,7 @@ h3{
 }
 /*VIBRATOR BLUETOOTH*/
 .grid .item .vibrator-bluetooth{
-    margin-top: -335px; 
-  
+    margin-top: -335px;  
 }
 /*VIBRATOR MINI-BULLET*/
 .grid .item .vibrator-bullet{
@@ -232,11 +234,35 @@ h3{
 
 /*VIBRADOR SAFIMAN*/
 .grid .item .vibrador-safiman{
-    margin-top: -340px;
-    margin-left: 10px;
+    margin-top: -360px;
+    margin-left: 14px;
 }
 /*LUBRICANTE DE SILICON LIGERO Y DENSO*/
 .grid .item .lub-silicon{
+    margin-top: -350px;
+    margin-left: 10px;
+}
+
+/*LUBRICANTE RETARDADOR*/
+.grid .item .lub-retardador{
+    margin-top: -350px;
+    margin-left: 10px;
+}
+
+/*LUBRIGELA ANAL*/
+.grid .item .lub-anal{
+    margin-top: -350px;
+    margin-left: 10px;
+}
+
+/*LUBRIGELA TERMICO*/
+.grid .item .lub-termico{
+    margin-top: -340px;
+    margin-left: 10px;
+}
+
+/*SENSIBILIZADOR MULTIORGASMICO*/
+.grid .item .sensi-multi{
     margin-top: -340px;
     margin-left: 10px;
 }
@@ -442,7 +468,7 @@ footer{
     
     
     .grid .item{
-        height: 150px;
+        height: 200px;
     }
     .grid{
         grid-template-columns: 1fr 1fr;
@@ -454,20 +480,111 @@ footer{
     .menu-mobile{
         display: block;
     }
+
+        /*EDITAMOS IMAGENES*/
+
+    /*Vibrador Punto G*/
+    .grid .item .vibrator{
+        margin-top: -300px;
+    }
+
+    /*VIBRADOR CERDO*/
+    .grid .item .vibrator-pig{
+        margin-top: -310px;
+    }
+
+    /*VIBRADOR DE GUISSE*/
+    .grid .item .vibrator-guisse{
+    margin-top: -290px;
+    }
+
+    /*VIBRATOR BLUETOOTH*/
+    .grid .item .vibrator-bluetooth{
+    margin-top: -300px; 
+    }
+
+    /*VIBRATOR MINI-BULLET*/
+    .grid .item .vibrator-bullet{
+    margin-top: -285px;
+    margin-left: 10px;
+    }
+
+    /* SATISFYER-PRO*/
+    .grid .item .satisfyer-pro{
+        margin-top: -285px;
+        margin-left: 10px;
+    }
+
+    /*PLUGS ANALES*/
+    .grid .item .plugs-anal{
+    margin-top: -310px;
+    margin-left: 10px;
+    }
+
+    /*Lipsick Vibrator*/
+    .grid .item .lips-vibrator{
+        margin-top: -310px;
+        
+    }
+
+    /*DILDO*/
+    .grid .item .dildo{
+        margin-top: -310px;
+        
+    }
+
+    /*VIBRADOR SAFIMAN*/
+    .grid .item .vibrador-safiman{
+        margin-top: -320px;
+        margin-left: 14px;
+    }
+    /*LUBRICANTE DE SILICON LIGERO Y DENSO*/
+    .grid .item .lub-silicon{
+        margin-top: -310px;
+        margin-left: 10px;
+    }
+
+    /*LUBRICANTE RETARDADOR*/
+    .grid .item .lub-retardador{
+        margin-top: -315px;
+        margin-left: 10px;
+    }
+
+    /*LUBRIGELA ANAL*/
+    .grid .item .lub-anal{
+        margin-top: -290px;
+        margin-left: 10px;
+    }
+
+    /*LUBRIGELA TERMICO*/
+    .grid .item .lub-termico{
+        margin-top: -300px;
+        margin-left: 10px;
+    }
+
+    /*SENSIBILIZADOR MULTIORGASMICO*/
+    .grid .item .sensi-multi{
+        margin-top: -290px;
+        margin-left: 10px;
+    }
+
+    /* F I N*/
     
 }
-/*iPad normal*/
+
+
+/*iPad MINI*/
 @media(max-width: 800px){
      
     .main-video{
-        height: 200px;
+        height: 160px;
     }
     .main-video .video video{
         margin-top: 0;
     }
     
     .grid .item{
-        height: 150px;
+        height: 200px;
     }
     .grid{
         grid-template-columns: 1fr 1fr;
@@ -487,6 +604,93 @@ footer{
     }
     .menu-mobile{
         display: block;
+    }
+
+            /*EDITAMOS IMAGENES*/
+
+    /*Vibrador Punto G*/
+    .grid .item .vibrator{
+        margin-top: -290px;
+    }
+
+    /*VIBRADOR CERDO*/
+    .grid .item .vibrator-pig{
+        margin-top: -290px;
+    }
+
+    /*VIBRADOR DE GUISSE*/
+    .grid .item .vibrator-guisse{
+    margin-top: -260px;
+    }
+
+    /*VIBRATOR BLUETOOTH*/
+    .grid .item .vibrator-bluetooth{
+    margin-top: -280px; 
+    }
+
+    /*VIBRATOR MINI-BULLET*/
+    .grid .item .vibrator-bullet{
+    margin-top: -265px;
+    margin-left: 10px;
+    }
+
+    /* SATISFYER-PRO*/
+    .grid .item .satisfyer-pro{
+        margin-top: -275px;
+        margin-left: 10px;
+    }
+
+    /*PLUGS ANALES*/
+    .grid .item .plugs-anal{
+    margin-top: -280px;
+    margin-left: 10px;
+    }
+
+    /*Lipsick Vibrator*/
+    .grid .item .lips-vibrator{
+        margin-top: -290px;
+        
+    }
+
+    /*DILDO*/
+    .grid .item .dildo{
+        margin-top: -280px;
+        
+    }
+
+    /*VIBRADOR SAFIMAN*/
+    .grid .item .vibrador-safiman{
+        margin-top: -290px;
+        margin-left: 14px;
+    }
+    /*LUBRICANTE DE SILICON LIGERO Y DENSO*/
+    .grid .item .lub-silicon{
+        margin-top: -290px;
+        margin-left: 10px;
+    }
+
+    /*LUBRICANTE RETARDADOR*/
+    .grid .item .lub-retardador{
+        margin-top: -285px;
+        margin-left: 10px;
+    }
+
+    /*LUBRIGELA ANAL*/
+    .grid .item .lub-anal{
+        margin-top: -280px;
+        margin-left: 10px;
+    }
+
+    /*LUBRIGELA TERMICO*/
+    .grid .item .lub-termico{
+        margin-top: -280px;
+        margin-left: 10px;
+    }
+
+    /*SENSIBILIZADOR MULTIORGASMICO*/
+    .grid .item .sensi-multi{
+        margin-top: -260px;
+        margin-left: 10px;
     }
    
     
@@ -528,8 +732,84 @@ footer{
         margin-top: -265px;
     }
 
+    /*VIBRADOR DE GUISSE*/
+    .grid .item .vibrator-guisse{
+    margin-top: -235px;
+    }
+
+    /*VIBRATOR BLUETOOTH*/
+    .grid .item .vibrator-bluetooth{
+    margin-top: -235px; 
+    }
+
+    /*VIBRATOR MINI-BULLET*/
+    .grid .item .vibrator-bullet{
+    margin-top: -235px;
+    margin-left: 10px;
+    }
+
+    /* SATISFYER-PRO*/
+    .grid .item .satisfyer-pro{
+        margin-top: -235px;
+        margin-left: 10px;
+    }
+
+    /*PLUGS ANALES*/
+    .grid .item .plugs-anal{
+    margin-top: -245px;
+    margin-left: 10px;
+    }
+
+    /*Lipsick Vibrator*/
+    .grid .item .lips-vibrator{
+        margin-top: -240px;
+        
+    }
+
+    /*DILDO*/
+    .grid .item .dildo{
+        margin-top: -240px;
+        
+    }
+
+    /*VIBRADOR SAFIMAN*/
+    .grid .item .vibrador-safiman{
+        margin-top: -260px;
+        margin-left: 14px;
+    }
+    /*LUBRICANTE DE SILICON LIGERO Y DENSO*/
+    .grid .item .lub-silicon{
+        margin-top: -250px;
+        margin-left: 10px;
+    }
+
+    /*LUBRICANTE RETARDADOR*/
+    .grid .item .lub-retardador{
+        margin-top: -250px;
+        margin-left: 10px;
+    }
+
+    /*LUBRIGELA ANAL*/
+    .grid .item .lub-anal{
+        margin-top: -250px;
+        margin-left: 10px;
+    }
+
+    /*LUBRIGELA TERMICO*/
+    .grid .item .lub-termico{
+        margin-top: -240px;
+        margin-left: 10px;
+    }
+
+    /*SENSIBILIZADOR MULTIORGASMICO*/
+    .grid .item .sensi-multi{
+        margin-top: -240px;
+        margin-left: 10px;
+    }
 
     /* F I N*/
+
+
     .grid{
         grid-template-columns: 1fr;
     }
