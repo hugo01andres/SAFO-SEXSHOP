@@ -365,6 +365,11 @@ h3{
 .contact .contact-container .location h3{
     text-align: left;
 }
+.contact .contact-container .location a{
+    text-align: left;
+    color: var(--background-color);
+    fill: var(--highlight-color);
+}
 .contact .contact-container .social{
     text-align: center;
 }
