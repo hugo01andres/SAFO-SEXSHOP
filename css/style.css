@@ -1,0 +1,536 @@
+:root{
+    --background-color: #f1c8e8;
+    --primary-color:#000;
+    --highlight-color:#FF8DAC;
+}
+*{
+    font-size: 16px;
+}
+body{
+    background-color: #f3e4f1;
+    font-family:'Work Sans', Arial, Helvetica, sans-serif;
+    line-height: 2;
+    padding: 0;
+    margin: 0;
+}
+::selection{
+    background-color: var(--highlight-color);
+}
+::-moz-selection{
+    background-color: var(--highlight-color);
+}
+a{
+    color: var(--primary-color);
+    text-decoration: none;
+    padding: 10px;
+    transition: color 0.2s ease-in-out;
+}
+a:hover{
+    color: black;
+}
+h2, h3{
+    font-family: 'Barlow Condensed', Arial, Helvetica, sans-serif;
+}
+h2{
+    font-size: 2.5rem;
+    text-align: center;
+}
+h3{
+    font-size: 1.5rem;
+    text-align: center;
+}
+.container{
+    width: 1920px;
+}
+/*
+            MENU
+*/
+.menu{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 100px auto 50px auto;
+    width: 50%;
+    align-items: center;
+}
+.menu >div{
+    width: 33%;
+}
+.menu ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.menu ul li{
+    
+    animation-name: opening-logo;
+    animation-duration: 1.4s;
+    animation-timing-function: ease-in-out;
+}
+.menu a{
+    font-family: 'barlow Condensed';
+    font-size: 1.7rem;
+
+}
+.menu .logo img{
+    animation-name: opening-logo;
+    animation-duration: 1.6s;
+    animation-timing-function: ease-in-out;
+}
+
+.menu-mobile{
+    display: none;
+}
+.menu-mobile a:hover svg{
+    fill: var(--highlight-color);
+}
+.menu-mobile .header{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.menu-mobile .header .logo{
+    flex-grow: 2;
+    text-align: center;
+}
+.menu-mobile .header .logo img{
+    width: 64px;
+
+    animation-name: opening-logo;
+    animation-duration: 1.6s;
+    animation-timing-function: ease-in-out;
+}
+.menu-mobile ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+.menu-mobile ul li{
+    text-align: center;
+}
+.menu-mobile ul li a{
+    display: block;
+    padding: 10px 0;
+}
+.menu-mobile-closed{
+    display: none;
+}
+/*
+            MENU
+*/
+.main-video{
+    margin-top: 250px;
+    transform-origin: 0 0;
+    transform: skewY(-10deg);
+    overflow: hidden;
+    height: 500px;
+    margin-bottom: 150px;
+
+}
+.main-video .video{
+    overflow: hidden;
+    transform: skewY(5deg) scale(1.4, 1.4);
+}
+.main-video .video video{
+    margin-top: -100px;
+    width: 100%;
+}
+
+/*
+            INTRO
+*/
+
+.intro{
+    text-align: center;
+    width: 320px;
+    margin: 0 auto;
+    margin-top: -50px;
+    padding-bottom: 100px;
+}
+
+/*
+            WORK
+*/
+.work{
+    padding-top: 150px;
+    transform-origin: 0 0;
+    transform: skewY(-10deg);
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0;
+}
+.grid .item{
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+    height: 300px;
+}
+.grid .item img{
+    
+    width: 100%;
+    margin-top: -100px;
+    transform: skewY(10deg) scale(1.2,1.2);
+    transition: all 0.5s;
+}
+
+/*EDITAMOS LAS IMAGENES Y LES DAMOS FORMATO INDIVIDUALMENTE*/
+
+/*VIBRADOR PUNTO G*/
+.grid .item .vibrator{
+    margin-top: -380px;
+}
+/*Vibrador DE CERDO*/
+.grid .item .vibrator-pig{
+    margin-top: -355px;
+}
+/*VIBRADOR DE GUISSE*/
+.grid .item .vibrator-guisse{
+    margin-top: -335px;
+}
+/*VIBRATOR BLUETOOTH*/
+.grid .item .vibrator-bluetooth{
+    margin-top: -335px; 
+  
+}
+/*VIBRATOR MINI-BULLET*/
+.grid .item .vibrator-bullet{
+    margin-top: -335px;
+    margin-left: 10px;
+}
+/* SATISFYER-PRO*/
+.grid .item .satisfyer-pro{
+    margin-top: -335px;
+    margin-left: 10px;
+}
+
+/*PLUGS ANALES*/
+.grid .item .plugs-anal{
+    margin-top: -345px;
+    margin-left: 10px;
+}
+
+/*Lipsick Vibrator*/
+.grid .item .lips-vibrator{
+    margin-top: -340px;
+    
+}
+
+/*DILDO*/
+.grid .item .dildo{
+    margin-top: -340px;
+    
+}
+
+/*VIBRADOR SAFIMAN*/
+.grid .item .vibrador-safiman{
+    margin-top: -340px;
+    margin-left: 10px;
+}
+/*LUBRICANTE DE SILICON LIGERO Y DENSO*/
+.grid .item .lub-silicon{
+    margin-top: -340px;
+    margin-left: 10px;
+}
+
+
+/* F I N */
+
+.grid .item:hover img{
+    transform: skewY(10deg) scale(1.4,1.4);
+}
+
+
+
+
+.grid .item .bg-hover{
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 150%;
+    display: grid;
+    position: absolute;
+    z-index: 2;
+    top: -25%;
+    opacity: 0;
+    transition: opacity 0.3 ease-in-out;
+    transform: skewY(10deg) scale(1,1);
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+.grid .item:hover .bg-hover{
+    overflow: hidden;
+    opacity: 1;
+
+}
+.grid .item:hover .bg-hover .info{
+    animation: bounce 0.4s ease-in-out;
+}
+.grid .item:hover .bg-hover .title{
+    color: white;
+}
+.grid .item:hover .bg-hover .customer{
+    color: var(--background-color);
+}
+
+.about{
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 150px;
+}
+.columns{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.contact{
+    background-color: #000;
+    padding-top: 150px;
+    color: white;
+    transform: skewY(-5deg);
+}
+.contact .contact-container{
+    transform: skewY(5deg);
+    color: var(--background-color);
+    width: 1280px;
+    margin: 0 auto;
+}
+.contact .contact-container h3{
+    color: white;
+}
+.contact .contact-container .emails{
+    text-align: right;
+}
+.contact .contact-container .emails h3{
+    text-align: right;
+}
+.contact .contact-container .location h3{
+    text-align: left;
+}
+.contact .contact-container .social{
+    text-align: center;
+}
+.contact .contact-container .social a:hover path{
+    fill: var(--highlight-color);
+}
+footer{
+    background-color: #000;
+    height: 450px;
+    margin-top: -170px;
+}
+#screen{
+    background-color: var(--highlight-color);
+    position: fixed;
+    z-index: 100;
+    top: -280px;
+    left: 0;
+    width: 100vw;
+    height: 10vh;
+    transform: skewY(-5deg);
+    transition: all 0.45s;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+
+}
+#details-container{
+    background-color: var(--background-color);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    overflow: auto;
+    display: none;
+}
+#details-container .nav-bar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.item-hide{
+    display: none;
+}
+#details-container .items{
+    width: 60%;
+    margin: 0 auto;
+}
+#details-container .items .item .main-image img{
+    width: 80%;
+    margin-left: 10%;
+    
+}
+#details-container .items .item .main-image .title{
+    text-align: center;
+}
+
+
+@keyframes opening-logo{
+    0%{
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+@keyframes bounce{
+    0%{transform: translateY(500px);}
+    80%{transform: translateY(-30px);}
+    100%{transform: translateY(0);}
+}
+@keyframes fade-in {
+    0%{height: 0vh;}
+    50%{height: 150vh;}
+    100%{height: 0vh;}
+}
+
+/*Compu normal*/
+@media(max-width: 1450px){
+    
+    .main-video{
+        height: 600px;
+    }
+    .grid .item{
+        padding: 0;
+        position: relative;
+        overflow: hidden;
+        height: 250px;
+    }
+    
+    
+}
+/*Computadora chica*/
+@media(max-width: 1280px){
+    
+    .main-video{
+        height: 400px;
+    } 
+    .grid{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .grid .item{
+        padding: 0;
+        position: relative;
+        overflow: hidden;
+        height: 150px;
+    }
+    .contact .contact-container{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .contact .contact-container h3{
+        text-align: center !important;
+    }
+    .contact .contact-container .emails{
+        text-align: center;
+    }
+    
+    
+   
+}
+/*iPad Air*/
+@media(max-width: 900px){
+    
+    
+    .grid .item{
+        height: 150px;
+    }
+    .grid{
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .menu{
+        display: none;
+    }
+    .menu-mobile{
+        display: block;
+    }
+    
+}
+/*iPad normal*/
+@media(max-width: 800px){
+     
+    .main-video{
+        height: 200px;
+    }
+    .main-video .video video{
+        margin-top: 0;
+    }
+    
+    .grid .item{
+        height: 150px;
+    }
+    .grid{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .columns{
+        flex-direction: column;
+        gap: 0;
+    }
+    .columns div{
+        width: 100%;
+        text-align: center;
+    }
+    
+    .menu{
+        display: none;
+    }
+    .menu-mobile{
+        display: block;
+    }
+   
+    
+}
+
+
+/*celular iphone*/
+@media(max-width: 540px){
+    .menu{
+        display: none;
+    }
+    .menu-mobile{
+        display: block;
+    }
+    .main-video{
+        margin-top: 100px;
+        height: 500px;
+        margin-bottom: 150px;
+    }
+    .main-video .video video{
+        margin-top: 0;
+    }
+
+    .grid .item{
+        
+        height: 300px;
+    }
+
+
+    /*EDITAMOS IMAGENES*/
+
+    /*Vibrador Punto G*/
+    .grid .item .vibrator{
+        margin-top: -220px;
+    }
+
+    /*VIBRADOR CERDO*/
+    .grid .item .vibrator-pig{
+        margin-top: -265px;
+    }
+
+
+    /* F I N*/
+    .grid{
+        grid-template-columns: 1fr;
+    }
+}
